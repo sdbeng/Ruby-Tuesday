@@ -12,7 +12,7 @@ class Tweet
 	end
 end
 
-my_tweet = Tweet.new("Playing bingo...")
+my_tweet = Tweet.new("Programming ruby 2...")
 puts my_tweet
 
 #using self
