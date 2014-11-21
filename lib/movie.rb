@@ -4,7 +4,7 @@ class Movie
   attr_reader :rank
   
   def initialize(title, rank=0)
-    @title = title #.capitalize
+    @title = title.capitalize
     @rank = rank
   end
   
